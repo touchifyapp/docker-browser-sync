@@ -88,42 +88,42 @@ $   start --config bs-config.js
 ## Command line options
 
 ```
--server, -s	            Run a Local server (uses your cwd as the web root)
---cwd	                Working directory
---json	                If true, certain logs will output as json only
---serveStatic, --ss	    Directories to serve static files from
---port	                Specify a port to use
---proxy, -p	            Proxy an existing server
---ws	                Proxy mode only - enable websocket proxying
---browser, -b	        Choose which browser should be auto-opened
---watch, -w	            Watch files
---ignore	            Ignore patterns for file watchers
---files, -f	            File paths to watch
+-server, -s             Run a Local server (uses your cwd as the web root)
+--cwd                   Working directory
+--json                  If true, certain logs will output as json only
+--serveStatic, --ss     Directories to serve static files from
+--port                  Specify a port to use
+--proxy, -p             Proxy an existing server
+--ws                    Proxy mode only - enable websocket proxying
+--browser, -b           Choose which browser should be auto-opened
+--watch, -w             Watch files
+--ignore                Ignore patterns for file watchers
+--files, -f             File paths to watch
 --index	Specify         which file should be used as the index page
---plugins	            Load Browsersync plugins
---extensions	        Specify file extension fallbacks
---startPath	            Specify the start path for the opened browser
---single	            If true, the connect-history-api-fallback middleware will be added
---https	                Enable SSL for local development
---directory	            Show a directory listing for the server
---xip	                Use xip.io domain routing
---tunnel	            Use a public URL
---open	                Choose which URL is auto-opened (local, external or tunnel), or provide a url
---cors	                Add Access Control headers to every request
---config, -c	        Specify a path to a configuration file
---host	                Specify a hostname to use
---logLevel	            Set the logger output level (silent, info or debug)
---reload-delay	        Time in milliseconds to delay the reload event following file changes
---reload-debounce	    Restrict the frequency in which browser:reload events can be emitted to connected clients
---ui-port	            Specify a port for the UI to use
---watchEvents	        Specify which file events to respond to
---no-notify	            Disable the notify element in browsers
---no-open	            Don't open a new browser window
---no-online	            Force offline usage
---no-ui	                Don't start the user interface
---no-ghost-mode	        Disable Ghost Mode
---no-inject-changes	    Reload on every file change
---no-reload-on-restart	Don't auto-reload all browsers following a restart
+--plugins               Load Browsersync plugins
+--extensions            Specify file extension fallbacks
+--startPath             Specify the start path for the opened browser
+--single                If true, the connect-history-api-fallback middleware will be added
+--https                 Enable SSL for local development
+--directory             Show a directory listing for the server
+--xip                   Use xip.io domain routing
+--tunnel                Use a public URL
+--open                  Choose which URL is auto-opened (local, external or tunnel), or provide a url
+--cors                  Add Access Control headers to every request
+--config, -c            Specify a path to a configuration file
+--host                  Specify a hostname to use
+--logLevel              Set the logger output level (silent, info or debug)
+--reload-delay          Time in milliseconds to delay the reload event following file changes
+--reload-debounce       Restrict the frequency in which browser:reload events can be emitted to connected clients
+--ui-port               Specify a port for the UI to use
+--watchEvents           Specify which file events to respond to
+--no-notify             Disable the notify element in browsers
+--no-open               Don't open a new browser window
+--no-online             Force offline usage
+--no-ui                 Don't start the user interface
+--no-ghost-mode         Disable Ghost Mode
+--no-inject-changes     Reload on every file change
+--no-reload-on-restart  Don't auto-reload all browsers following a restart
 ```
 
 ## License
